@@ -1,0 +1,14 @@
+.card{
+    float: left;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.26);
+    text-align: center;
+    border: black;
+}
+img{
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.301);
+    border-color: black;
+}
+
