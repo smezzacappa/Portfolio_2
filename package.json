@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/smezzacappa/Portfolio_2/issues"
   },
-  "homepage": "https://github.com/smezzacappa/Portfolio_2#readme"
+  "homepage": "https://github.com/smezzacappa/Portfolio_2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mongoose": "^5.3.13",
+    "path": "^0.12.7"
+  }
 }
