@@ -5,7 +5,7 @@ const PORT = 3000;
 
 
 // serve static files
-app.use('/about', express.static(`${PATH}/public/about`));
+app.use('/code', express.static(`${PATH}/public/code`));
 app.use('/contact', express.static(`${PATH}/public/contact`));
 app.use('/portfolio', express.static(`${PATH}/public/portfolio`));
 app.use('/', express.static(`${PATH}/public/home`));

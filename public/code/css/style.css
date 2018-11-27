@@ -16,6 +16,15 @@ p {
     line-height: 1.7em;
     color: #999;
 }
+.card{
+    float: left;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.26);
+    text-align: center;
+    border: black;
+}
 .connect-photo1 {
     /* Box-model */
     width: 55px;
