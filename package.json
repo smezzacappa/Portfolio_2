@@ -1,10 +1,10 @@
 {
-  "name": "Portfolio_2",
+  "name": "portfolio_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Preview](previews/PortfolioPreview1.png) ![Preview](previews/PortfolioPreview2.png) ![Preview](previews/PortfolioPreview3.png) ![Preview](previews/PortfolioPreview4.png) ![Preview](previews/PortfolioPreview5.png)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node ./server/index.js"
   },
   "repository": {
@@ -25,5 +25,8 @@
     "http": "0.0.0",
     "mongoose": "^5.3.13",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
